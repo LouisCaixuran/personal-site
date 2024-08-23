@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
-const Projects = () => (
+const Publications = () => (
   <Main
     title="Publications"
     description="Learn about Xuran Cai's publications."
