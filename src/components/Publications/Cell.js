@@ -9,6 +9,7 @@ const Cell = ({ data }) => (
       </header>
       <h4 className="author">{data.author}</h4>
       <h4 className="year">{data.year}</h4>
+      <h4 className="publisher">{data.publisher}</h4>
       <a href={data.link}><h4 className="link">{data.link}</h4></a>
 
     </article>
@@ -19,6 +20,7 @@ Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
+    publisher: PropTypes.string.isRequired,
     link: PropTypes.string,
     year: PropTypes.string.isRequired,
   }).isRequired,
